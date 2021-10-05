@@ -1,0 +1,4 @@
+open Vparser;;
+open Vparse;;
+
+let rslt = Vparse.parse' "../picorv32/picorv32.v";;
